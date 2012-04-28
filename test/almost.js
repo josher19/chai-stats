@@ -4,10 +4,9 @@ if (!chai) {
   chai.use(stats);
 }
 
-var should = chai.should();
-
-var assert = chai.assert;
-var expect = chai.expect;
+var should = chai.should()
+  , expect = chai.expect
+  , assert = chai.assert;
 
 function err(fn, msg) {
   try {
